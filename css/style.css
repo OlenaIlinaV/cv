@@ -1,0 +1,107 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
+    padding: 40px;
+}
+
+/* Wrapper */
+.wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color:white;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Main content */
+.main_content{
+    padding: 40px;
+}
+
+/* About me */
+.my_profession{
+    margin-bottom: 30px;
+}
+h2{
+    font-size: 20px;
+}
+
+/* Sidebar */
+.sidebar{
+    background-color: #E0EBFE;
+    width: 370px
+}
+.my_photo{
+    margin-top: 40px;
+}
+
+.contacts_container, 
+.tech_skills_container,
+.soft_skills_container,
+.language_skills_container{
+    margin: 60px 60px 75px 60px;
+}
+
+.sidebar_title {
+color: #161D2A;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 27px;
+margin-bottom: 8px;
+}
+
+/* Contacts */
+.contacts_type,
+.skills_sphere_type {
+    color: #161D2A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 24px;
+}
+
+.contacts_number {
+    color: #161D2A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.contacts_email {
+    color: #2979FF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+    }
+
+    .contacts_linkedIn {
+    color: #161D2A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    }
+
+    /* Skills */
+
+    .skills_list {
+        padding: 0 0 0 20px;
+        margin: 0;
+    }
+
+    .skills_list_item {
+        color: #6D9BF5;
+    }
+
+    .skills_list_item_text {
+        color: #161D2A;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+
+    }
