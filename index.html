@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
 
-    <title>📜 My resume 📜</title>
+    <title>My resume</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -20,144 +20,175 @@
       <!-- Main content -->
       <div class="main_content">
         <!-- About me -->
-        <div>
+        <div class="about_me_container">
           <h2 class="my_profession">Business analyst</h2>
-          <h1>Olena Ilina</h1>
+          <h1 class="my_name">Olena Ilina</h1>
 
-          <p>
+          <p class="my_description">
             A challenging and career-oriented position to utilize my experience and analytical
             skills and that provides opportunities for advancement. As a high-quality service-driven
             person, I aim to contribute competent analytics and first-class results in a dynamic
             company.
           </p>
-          <p>
+          <p class="my_description_2">
             I am currently interested in acquiring new skills and advancing my career in business
             analysis.
           </p>
         </div>
 
         <!-- My project -->
-        <div>
-          <h3>Projects</h3>
-          <ol>
+        <div class="projects_container">
+          <h3 class="main_content_title">Projects</h3>
+          <ol class="project_list">
             <li class="project-item">
-              <a href="https://github.com/OlenaIlinaV">Github_Olena Ilina</a>
-              .......[ HTML5, CSS3, JavaScript ]
+              <a href="https://github.com/OlenaIlinaV" class="project-item-link"
+                >Github_Olena Ilina</a
+              >
+              <span class="project-item-deskr">...........[ HTML5, CSS3, JavaScript ]</span>
             </li>
-            <li>
+            <li class="project-item">
               <a
                 href="https://www.figma.com/file/p0hwIIrZwKsJkFkjqYFElP/GO-IT_Ilina-Olena?type=design&node-id=0%3A1&mode=design&t=gyiPNSvxswacGn61-1"
+                class="project-item-link"
                 >Horoscope</a
-              >...........................[ Figma ]
+              >
+              <span class="project-item-deskr">..............................[ Figma ]</span>
             </li>
           </ol>
         </div>
         <!-- Work experience  -->
-        <div>
-          <h3>Work experience</h3>
-          Have 5 years of experience in the FMCG industry, which includes 3 years in managing
-          financial performance.
+        <div class="work_experience_container">
+          <h3 class="main_content_title">Work experience</h3>
+          <p class="my_description_2">
+            Have 5 years of experience in the FMCG industry, which includes 3 years in managing
+            financial performance.
+          </p>
           <!-- Work 1 -->
-          <div>
-            <h4>Production planning & performance Analyst</h4>
-            <p>March 2021 – April 2023 | ABInbevEfes Ukraine</p>
-            <ul type="disc">
-              <li>
+          <div class="work_experience_place">
+            <h4 class="work_experience_position">
+              Production planning & performance Analyst |
+              <span class="work_experience_company">ABInbevEfes Ukraine</span>
+            </h4>
+            <p class="work_period">March 2021 – April 2023</p>
+            <ul type="disc" class="work_duties_list">
+              <li class="work_duties">
                 Conducted analysis and correctness control of actual cost display and allocation.
               </li>
-              <li>
+              <li class="work_duties">
                 Analyzed the results in relation to the budget and forecast calculation per month.
               </li>
-              <li>
+              <li class="work_duties">
                 Produced the country forecast of variable production costs. Coordinated the
                 budgeting process of a 5-person specialist team, and participated in the
                 finalization of cost budget for the upcoming year.
               </li>
-              <li>
+              <li class="work_duties">
                 Communicated with several departments to finalize monthly actual cost results in the
                 SAP ERP accounting system.
               </li>
-              <li>
+              <li class="work_duties">
                 Communicated with several departments to finalize monthly actual cost results in the
                 SAP ERP accounting system.
               </li>
-              <li>
+              <li class="work_duties">
                 Participated in regional projects for automation and improvement of cost analysis:
               </li>
 
-              <ul type="circle">
-                <li>
+              <ul type="circle" class="work_duties_list">
+                <li class="work_duties">
                   Led the project to optimize cost calculations for the new business cases
                   (marketing research).
                 </li>
 
-                <li>
+                <li class="work_duties">
                   Designed new reports in Anaplan system to optimize budget and fact cost process.
                 </li>
 
-                <li>
+                <li class="work_duties">
                   Prepared requirements in Azure Boards and validated transformed data from ETL
                   system (from SAP ERP to Anaplan).
                 </li>
 
-                <li>
+                <li class="work_duties">
                   Supported the implementation by European colleges of analysis approaches in
                   Anaplan system by the example of the current Ukrainian model.
                 </li>
               </ul>
-              <li>
+              <li class="work_duties">
                 Prepared and presented my department and theory about variable costs at the internal
                 ABInbev Academy courses.
               </li>
             </ul>
           </div>
           <!-- Work 2 -->
-          <div>
-            <h4>Production planning & performance Specialist</h4>
-            <p>December 2019 – February 2021 | ABInbevEfes Ukraine</p>
-            <ul type="disc">
-              <li>
+          <div class="work_experience_place">
+            <h4 class="work_experience_position">
+              Production planning & performance Specialist |
+              <span class="work_experience_company">ABInbevEfes Ukraine</span>
+            </h4>
+            <p class="work_period">
+              December 2019 – February 2021
+              <!-- <span class="work_experience_company">ABInbevEfes Ukraine</span> -->
+            </p>
+            <ul type="disc" class="work_duties_list">
+              <li class="work_duties">
                 Performed production cost budgeting and analysis in the Eastern European region.
               </li>
-              <li>Prepared and presented analytical reports about production activities.</li>
-              <li>
+              <li class="work_duties">
+                Prepared and presented analytical reports about production activities.
+              </li>
+              <li class="work_duties">
                 Analyzed by factors the deviations causes of actual costs in relation to the budget.
               </li>
-              <li>
+              <li class="work_duties">
                 Participated in projects focused on improving the quality of performance analysis
                 and process optimization in the Production department.
               </li>
             </ul>
           </div>
           <!-- Work 3 -->
-          <div>
-            <h4>Customer service Specialist</h4>
-            <p>April 2018 – December 2019 | ABInbevEfes Ukraine.</p>
-            <ul type="disc">
-              <li>
+          <div class="work_experience_place">
+            <h4 class="work_experience_position">
+              Customer service Specialist |
+              <span class="work_experience_company">ABInbevEfes Ukraine</span>
+            </h4>
+            <p class="work_period">
+              April 2018 – December 2019
+              <!-- <span class="work_experience_company">ABInbevEfes Ukraine</span> -->
+            </p>
+            <ul type="disc" class="work_duties_list">
+              <li class="work_duties">
                 Carried out production receipts on the Logistics Centers. Composed digital invoices.
               </li>
-              <li>
+              <li class="work_duties">
                 Reviewed data synchronization between 1C: Accounting and the SAP ERP. Formed and
                 analyzed review reports.
               </li>
-              <li>Processed customer orders. Communication with customers about the delivery.</li>
+              <li class="work_duties">
+                Processed customer orders. Communication with customers about the delivery.
+              </li>
             </ul>
           </div>
         </div>
 
         <!-- Education -->
-        <div>
-          <h3>Education</h3>
-          <h4>Finance, banking and insurance</h4>
-          <p>Master’s degree. Finance Faculty.</p>
-          <p>01.2013-12.2018 | Simon Kuznets Kharkiv National University of Economics.</p>
+        <div class="work_experience_place">
+          <h3 class="main_content_title">Education</h3>
+
+          <h4>
+            Finance, banking and insurance |
+            <span class="work_experience_company"
+              >Simon Kuznets Kharkiv National University of Economics</span
+            >
+          </h4>
+          <p class="work_duties">Master’s degree. Finance Faculty</p>
+          <p class="work_period">September 2013 - December 2018</p>
         </div>
       </div>
 
       <!-- Sidebar -->
       <aside class="sidebar">
-        <img src="img/Photo-259.jpg" alt="My photo" width="300" class="my_photo" />
+        <img src="img/Photo-259.jpg" alt="My photo" width="340" class="my_photo" />
 
         <!-- Contacts -->
         <div class="contacts_container">

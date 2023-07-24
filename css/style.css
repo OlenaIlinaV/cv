@@ -11,6 +11,7 @@ body{
     background-color:white;
     width: 1200px;
     margin: 0 auto;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 /* Main content */
@@ -18,28 +19,150 @@ body{
     padding: 40px;
 }
 
+.main_content_title {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 0 0 8px 0;
+    }
+
 /* About me */
 .my_profession{
-    margin-bottom: 30px;
+color: #000;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 17px; 
+margin: 0 0 18px 0;
 }
-h2{
-    font-size: 20px;
+
+.my_name {
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    margin: 0 0 28px 0;
+}
+
+.my_description,
+.my_description_2 {
+color: #595959;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+width: 750px;
+text-align: justify;
+}
+
+.about_me_container {
+margin-bottom: 64px;
+}
+
+/* Projects */
+
+.project-item { 
+color: #000;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+} 
+
+.project_list {
+padding: 0 0 0 17px;
+margin: 0;
+}
+
+.projects_container {
+margin-bottom: 48px;
+}
+
+.project-item-deskr {
+color: #595959;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+}
+
+.project-item-link {
+color: #005FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+text-decoration-line: underline;
+}
+
+/* Work experience */
+
+.work_experience_container {
+margin-bottom: 44px;
+}
+
+.work_experience_position {
+color: #000;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+margin: o;
+}
+
+.work_experience_place {
+    margin-bottom: 16px;
+}
+.work_experience_company {
+color: #6D9BF5;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.work_period {
+color: #A8A8A8;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+margin: 12px 0 8px 0;
+}
+
+.work_duties {
+color: #595959;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+width: 750px;
+}
+
+.work_duties_list {
+    text-align: justify;
+    padding: 0 0 0 17px;
+    margin: 0;
 }
 
 /* Sidebar */
 .sidebar{
     background-color: #E0EBFE;
-    width: 370px
+    width: 340px
 }
 .my_photo{
-    margin-top: 40px;
+    margin: 40px 0 0 0;
+    padding: 0;
 }
 
 .contacts_container, 
 .tech_skills_container,
 .soft_skills_container,
 .language_skills_container{
-    margin: 60px 60px 75px 60px;
+    margin: 70px 60px 75px 60px;
 }
 
 .sidebar_title {
