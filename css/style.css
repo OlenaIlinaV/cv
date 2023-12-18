@@ -7,16 +7,17 @@ body{
 /* Wrapper */
 .wrapper{
     display: flex;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
     background-color:white;
-    width: 1200px;
+    max-width: 1200px;
+    min-width: 1005px;
     margin: 0 auto;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 /* Main content */
 .main_content{
-    padding: 40px;
+    padding: 25px;
 }
 
 .main_content_title {
@@ -31,7 +32,7 @@ body{
 /* About me */
 .my_profession{
 color: #000;
-font-size: 14px;
+font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: 17px; 
@@ -54,12 +55,13 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
-width: 750px;
-text-align: justify;
+/* width: 750px; */
+text-overflow: initial;
+/* text-align: justify; */
 }
 
 .about_me_container {
-margin-bottom: 64px;
+margin-bottom: 40px;
 }
 
 /* Projects */
@@ -78,7 +80,7 @@ margin: 0;
 }
 
 .projects_container {
-margin-bottom: 48px;
+margin-bottom: 40px;
 }
 
 .project-item-deskr {
@@ -90,7 +92,7 @@ line-height: 24px;
 }
 
 .project-item-link {
-color: #005FFF;
+color: #6a7ec1;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -117,7 +119,7 @@ margin: o;
     margin-bottom: 16px;
 }
 .work_experience_company {
-color: #6D9BF5;
+color: #6a7ec1;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
@@ -139,7 +141,7 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px; 
-width: 750px;
+/* width: 750px; */
 }
 
 .work_duties_list {
@@ -151,7 +153,7 @@ width: 750px;
 /* Sidebar */
 .sidebar{
     background-color: #E0EBFE;
-    width: 340px
+    width: 300px
 }
 .my_photo{
     margin: 40px 0 0 0;
@@ -162,7 +164,7 @@ width: 750px;
 .tech_skills_container,
 .soft_skills_container,
 .language_skills_container{
-    margin: 70px 60px 75px 60px;
+    margin: 40px 20px 50px 40px;
 }
 
 .sidebar_title {
@@ -170,7 +172,7 @@ color: #161D2A;
 font-size: 22px;
 font-style: normal;
 font-weight: 700;
-line-height: 27px;
+line-height: 25px;
 margin-bottom: 8px;
 }
 
@@ -185,7 +187,7 @@ margin-bottom: 8px;
 }
 
 .contacts_number {
-    color: #161D2A;
+    color: #6a7ec1;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -193,7 +195,7 @@ margin-bottom: 8px;
 }
 
 .contacts_email {
-    color: #2979FF;
+    color: #6a7ec1;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -202,7 +204,7 @@ margin-bottom: 8px;
     }
 
     .contacts_linkedIn {
-    color: #161D2A;
+    color: #6a7ec1;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -212,12 +214,12 @@ margin-bottom: 8px;
     /* Skills */
 
     .skills_list {
-        padding: 0 0 0 20px;
+        padding: 0 0 0 15px;
         margin: 0;
     }
 
     .skills_list_item {
-        color: #6D9BF5;
+        color: #6a7ec1;
     }
 
     .skills_list_item_text {
@@ -228,3 +230,27 @@ margin-bottom: 8px;
         line-height: 24px;
 
     }
+
+    .skills_list_item_text2 {
+        color: #A8A8A8;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        margin: 12px 0 8px 0;
+        }
+    /* Screen */
+
+    @media screen and (max-width: 1240px) {
+        .wrapper {
+            width: 100%;
+            max-width: 1222px;
+        }
+    }
+        
+    @media screen and (max-width: 1005px) {
+        .main_content {
+           padding: 25px 25px 25px 25px;
+        }
+    }
+        
